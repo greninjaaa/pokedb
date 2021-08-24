@@ -233,5 +233,26 @@ f = open("tmp4.txt", "w")
 f.write("\n".join(conts))
 f.close()
 """
-    
+
+f = open("ability.txt", "r")
+conts = f.read().split("\n")
+f.close()
+
+for i in range(0, len(conts)):
+    tmp = conts[i].split(' ')
+    tmp[0] += ';'
+    conts[i] = ' '.join(tmp)
+    tmp = conts[i].split(';')
+    tmp[0].strip(';')
+    tmp[1].strip(';')
+    tmp[1] = tmp[1].lstrip()
+    tmp[2] = tmp[2].lstrip()
+    print(tmp)
+    conts[i] = 'insert into ability values(' + tmp[0] + ', "' + tmp[1] + '", "' + tmp[2] + '");'
+    print(conts[i])
+
+
+f = open("tmp.txt", "w")
+f.write("\n".join(conts))
+f.close()
     
