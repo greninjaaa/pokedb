@@ -1,5 +1,3 @@
-types = ["Fire", "Water", "Ice", "Electric", "Psychic", "Poison", "Ghost", "Bug", "Grass",
-         "Dragon", "Steel", "Ground", "Fighting", "Rock", "Fairy", "Dark", "Normal", "Flying"]
 
 """
 f = open("stats.txt", "r")
@@ -154,7 +152,7 @@ f.write(conts)
 f.close()
 """
 
-
+"""
 f = open("ability.txt", "r")
 conts = f.read().split("\n")
 f.close()
@@ -175,7 +173,7 @@ for i in conts:
 f = open("tmp4.txt", "w")
 f.write("\n".join(new_list))
 f.close()
-
+"""
 """
 f = open("moves.txt", "r")
 conts = f.read().split("\n")
@@ -233,7 +231,7 @@ f = open("tmp4.txt", "w")
 f.write("\n".join(conts))
 f.close()
 """
-
+"""
 f = open("ability.txt", "r")
 conts = f.read().split("\n")
 f.close()
@@ -255,4 +253,143 @@ for i in range(0, len(conts)):
 f = open("tmp.txt", "w")
 f.write("\n".join(conts))
 f.close()
+
+
+f = open("tmp6.txt", "r")
+conts = f.read().split("\n")
+f.close()
+
+for i in range(0, len(conts)):
+    tmp = conts[i].split(' ')
+    print(tmp)
+    conts[i] = ' '.join(tmp[1:])
+
+f = open("tmp6.txt", "w")
+f.write("\n".join(conts))
+f.close()
+"""
+
+types = ["Fire", "Water", "Ice", "Electric", "Psychic", "Poison", "Ghost", "Bug", "Grass",
+         "Dragon", "Steel", "Ground", "Fighting", "Rock", "Fairy", "Dark", "Normal", "Flying"]
+
+"""
+f = open("tmp2.txt", "r")
+conts = f.read().split("\n")
+f.close()
+
+new_conts = []
+for i in range(0, len(conts)):
+    temp = conts[i].split(' ')
+    newdict = {
+        "name": "hello",
+        "types": "hello",
+        "stats": "hello",
+    }
+    st_index = 0
     
+    for j in range(0, len(temp)):
+        try:
+            int(temp[j])
+            st_index = j
+            break
+        except:
+            pass
+    
+    newdict["name"] = temp[:st_index]
+    newdict["stats"] = temp[st_index:st_index + 7]
+    newdict["types"] = temp[st_index+7:]
+         
+      
+    new_conts.append(newdict)
+
+text = ""
+for i in new_conts:
+    text += str(i) + "\n"
+print(text)
+
+f = open("tmp8.txt", "w")
+f.write(text)
+f.close()
+"""
+"""
+def func(ability_conts):
+    new_conts = []
+    for i in range(0, len(ability_conts)):
+        temp = ability_conts[i].split(" ")
+        newdict = {
+            "name": "hello",
+            "types": "hello",
+            "abilities": "hello",
+        }
+        t_index = 0
+        d_type = False
+        for j in range(0, len(temp)):
+            if temp[j] in types:
+                t_index = j
+                if temp[j + 1] in types:
+                    d_type = True
+                elif temp[j + 1] == 'Rider':
+                    t_index = j + 2
+                    d_type = True
+                elif temp[j + 1] == 'Forme' or temp[j + 1] == 'Face':
+                    t_index = j + 2
+                break
+                
+        newdict["name"] = temp[:t_index]
+        if d_type:
+            newdict["types"] = temp[t_index:t_index + 2]
+            newdict["abilities"] = temp[t_index + 2:]
+        else:
+            newdict["types"] = temp[t_index:t_index + 1]
+            newdict["abilities"] = temp[t_index + 1:]  
+        
+        new_conts.append(newdict)
+    return new_conts
+
+f = open("tmp8.txt", "r")
+poke_conts = f.read().strip('\n').split("\n")
+f.close()
+
+f = open("tmp4.txt", "r")
+ability_conts = f.read().strip('\n').split("\n")
+f.close()
+
+
+new_conts = func(ability_conts)
+
+
+
+
+paste = []
+
+matches = 0
+for i in range(0, max(len(new_conts), len(poke_conts))):
+    try:
+        tmp = eval(poke_conts[i])
+        if tmp["name"] == new_conts[i]["name"]:
+            tmp["abilities"] = new_conts[i]["abilities"]
+            matches += 1
+        else:
+            print(tmp["name"], new_conts[i]["name"])
+        paste.append(str(tmp))
+    except IndexError:
+        pass
+
+
+f = open("tmp9.txt", "w")
+f.write("\n".join(paste))
+f.close()
+"""
+
+f = open("tmp9.txt", "r")
+conts = f.read().split("\n")
+f.close()
+
+count = 0
+for i in conts:
+    tmp = eval(i)
+    if len(tmp["abilities"]) >= 4:
+        count += 1
+        print(tmp)
+        
+print(count)
