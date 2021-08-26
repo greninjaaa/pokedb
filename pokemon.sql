@@ -62,7 +62,7 @@ insert into pokemon values(004, 'Charmander', 309, 39, 52, 43, 60, 50, 65, 'Fire
 insert into pokemon values(005, 'Charmeleon', 405, 58, 64, 58, 80, 65, 80, 'Fire', NULL, NULL, NULL, NULL);
 insert into pokemon values(006, 'Charizard', 534, 78, 84, 78, 109, 85, 100, 'Fire', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(006, 'Charizard Mega Charizard X', 634, 78, 130, 111, 130, 85, 100, 'Fire', 'Dragon', NULL, NULL, NULL);
-insert into pokemon values(006, 'Charizard Mega Charizard Y', 634, 78, 104, 78, 159, 115, 100, 'Fire', 'Flying', NULL, NULL, NULL);
+insert into pokemon values(006, 'Charizard Mega Charizard Y', 634, 78, 104, 78, 159, 115, 100, 'Fire', 'Flying', 70, NULL, NULL);
 insert into pokemon values(007, 'Squirtle', 314, 44, 48, 65, 50, 64, 43, 'Water', NULL, NULL, NULL, NULL);
 insert into pokemon values(008, 'Wartortle', 405, 59, 63, 80, 65, 80, 58, 'Water', NULL, NULL, NULL, NULL);
 insert into pokemon values(009, 'Blastoise', 530, 79, 83, 100, 85, 105, 78, 'Water', NULL, NULL, NULL, NULL);
@@ -102,16 +102,16 @@ insert into pokemon values(033, 'Nidorino', 365, 61, 72, 57, 55, 55, 65, 'Poison
 insert into pokemon values(034, 'Nidoking', 505, 81, 102, 77, 85, 75, 85, 'Poison', 'Ground', NULL, NULL, NULL);
 insert into pokemon values(035, 'Clefairy', 323, 70, 45, 48, 60, 65, 35, 'Fairy', NULL, NULL, NULL, NULL);
 insert into pokemon values(036, 'Clefable', 483, 95, 70, 73, 95, 90, 60, 'Fairy', NULL, NULL, NULL, NULL);
-insert into pokemon values(037, 'Vulpix', 299, 38, 41, 40, 50, 65, 65, 'Fire', NULL, NULL, NULL, NULL);
+insert into pokemon values(037, 'Vulpix', 299, 38, 41, 40, 50, 65, 65, 'Fire', NULL, NULL, NULL, 70);
 insert into pokemon values(037, 'Vulpix Alolan Vulpix', 299, 38, 41, 40, 50, 65, 65, 'Ice', NULL, NULL, NULL, NULL);
-insert into pokemon values(038, 'Ninetales', 505, 73, 76, 75, 81, 100, 100, 'Fire', NULL, NULL, NULL, NULL);
+insert into pokemon values(038, 'Ninetales', 505, 73, 76, 75, 81, 100, 100, 'Fire', NULL, NULL, NULL, 70);
 insert into pokemon values(038, 'Ninetales Alolan Ninetales', 505, 73, 67, 75, 81, 100, 109, 'Ice', 'Fairy', NULL, NULL, NULL);
 insert into pokemon values(039, 'Jigglypuff', 270, 115, 45, 20, 45, 25, 20, 'Normal', 'Fairy', NULL, NULL, NULL);
 insert into pokemon values(040, 'Wigglytuff', 435, 140, 70, 45, 85, 50, 45, 'Normal', 'Fairy', NULL, NULL, NULL);
 insert into pokemon values(041, 'Zubat', 245, 40, 45, 35, 30, 40, 55, 'Poison', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(042, 'Golbat', 455, 75, 80, 70, 65, 75, 90, 'Poison', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(043, 'Oddish', 320, 45, 50, 55, 75, 65, 30, 'Grass', 'Poison', NULL, NULL, NULL);
-insert into pokemon values(044, 'Gloom', 395, 60, 65, 70, 85, 75, 40, 'Grass', 'Poison', NULL, NULL, NULL);
+insert into pokemon values(044, 'Gloom', 395, 60, 65, 70, 85, 75, 40, 'Grass', 'Poison', NULL, NULL, 1);
 insert into pokemon values(045, 'Vileplume', 490, 75, 80, 85, 110, 90, 50, 'Grass', 'Poison', NULL, NULL, NULL);
 insert into pokemon values(046, 'Paras', 285, 35, 70, 55, 45, 55, 25, 'Bug', 'Grass', NULL, NULL, NULL);
 insert into pokemon values(047, 'Parasect', 405, 60, 95, 80, 60, 80, 30, 'Bug', 'Grass', NULL, NULL, NULL);
@@ -170,9 +170,9 @@ insert into pokemon values(084, 'Doduo', 310, 35, 85, 45, 35, 35, 75, 'Normal', 
 insert into pokemon values(085, 'Dodrio', 470, 60, 110, 70, 60, 60, 110, 'Normal', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(086, 'Seel', 325, 65, 45, 55, 45, 70, 45, 'Water', NULL, NULL, NULL, NULL);
 insert into pokemon values(087, 'Dewgong', 475, 90, 70, 80, 70, 95, 70, 'Water', 'Ice', NULL, NULL, NULL);
-insert into pokemon values(088, 'Grimer', 325, 80, 80, 50, 40, 50, 25, 'Poison', NULL, NULL, NULL, NULL);
+insert into pokemon values(088, 'Grimer', 325, 80, 80, 50, 40, 50, 25, 'Poison', NULL, 1, NULL, NULL);
 insert into pokemon values(088, 'Grimer Alolan Grimer', 325, 80, 80, 50, 40, 50, 25, 'Poison', 'Dark', NULL, NULL, NULL);
-insert into pokemon values(089, 'Muk', 500, 105, 105, 75, 65, 100, 50, 'Poison', NULL, NULL, NULL, NULL);
+insert into pokemon values(089, 'Muk', 500, 105, 105, 75, 65, 100, 50, 'Poison', NULL, 1, NULL, NULL);
 insert into pokemon values(089, 'Muk Alolan Muk', 500, 105, 105, 75, 65, 100, 50, 'Poison', 'Dark', NULL, NULL, NULL);
 insert into pokemon values(090, 'Shellder', 305, 30, 65, 100, 45, 25, 40, 'Water', NULL, NULL, NULL, NULL);
 insert into pokemon values(091, 'Cloyster', 525, 50, 95, 180, 85, 45, 70, 'Water', 'Ice', NULL, NULL, NULL);
@@ -196,8 +196,8 @@ insert into pokemon values(105, 'Marowak Alolan Marowak', 425, 60, 80, 110, 50, 
 insert into pokemon values(106, 'Hitmonlee', 455, 50, 120, 53, 35, 110, 87, 'Fighting', NULL, NULL, NULL, NULL);
 insert into pokemon values(107, 'Hitmonchan', 455, 50, 105, 79, 35, 110, 76, 'Fighting', NULL, NULL, NULL, NULL);
 insert into pokemon values(108, 'Lickitung', 385, 90, 55, 75, 60, 75, 30, 'Normal', NULL, NULL, NULL, NULL);
-insert into pokemon values(109, 'Koffing', 340, 40, 65, 95, 60, 45, 35, 'Poison', NULL, NULL, NULL, NULL);
-insert into pokemon values(110, 'Weezing', 490, 65, 90, 120, 85, 70, 60, 'Poison', NULL, NULL, NULL, NULL);
+insert into pokemon values(109, 'Koffing', 340, 40, 65, 95, 60, 45, 35, 'Poison', NULL, NULL, NULL, 1);
+insert into pokemon values(110, 'Weezing', 490, 65, 90, 120, 85, 70, 60, 'Poison', NULL, NULL, NULL, 1);
 insert into pokemon values(110, 'Weezing Galarian Weezing', 490, 65, 90, 120, 85, 70, 60, 'Poison', 'Fairy', NULL, NULL, NULL);
 insert into pokemon values(111, 'Rhyhorn', 345, 80, 85, 95, 30, 30, 25, 'Ground', 'Rock', NULL, NULL, NULL);
 insert into pokemon values(112, 'Rhydon', 485, 105, 130, 120, 45, 45, 40, 'Ground', 'Rock', NULL, NULL, NULL);
@@ -286,7 +286,7 @@ insert into pokemon values(182, 'Bellossom', 490, 75, 80, 95, 90, 100, 50, 'Gras
 insert into pokemon values(183, 'Marill', 250, 70, 20, 50, 20, 50, 40, 'Water', 'Fairy', NULL, NULL, NULL);
 insert into pokemon values(184, 'Azumarill', 420, 100, 50, 80, 60, 80, 50, 'Water', 'Fairy', NULL, NULL, NULL);
 insert into pokemon values(185, 'Sudowoodo', 410, 70, 100, 115, 30, 65, 30, 'Rock', NULL, NULL, NULL, NULL);
-insert into pokemon values(186, 'Politoed', 500, 90, 75, 75, 90, 100, 70, 'Water', NULL, NULL, NULL, NULL);
+insert into pokemon values(186, 'Politoed', 500, 90, 75, 75, 90, 100, 70, 'Water', NULL, NULL, NULL, 2);
 insert into pokemon values(187, 'Hoppip', 250, 35, 35, 40, 35, 55, 50, 'Grass', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(188, 'Skiploom', 340, 55, 45, 50, 45, 65, 80, 'Grass', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(189, 'Jumpluff', 460, 75, 55, 70, 55, 95, 110, 'Grass', 'Flying', NULL, NULL, NULL);
@@ -391,7 +391,7 @@ insert into pokemon values(275, 'Shiftry', 480, 90, 100, 60, 90, 60, 80, 'Grass'
 insert into pokemon values(276, 'Taillow', 270, 40, 55, 30, 30, 30, 85, 'Normal', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(277, 'Swellow', 455, 60, 85, 60, 75, 50, 125, 'Normal', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(278, 'Wingull', 270, 40, 30, 30, 55, 30, 85, 'Water', 'Flying', NULL, NULL, NULL);
-insert into pokemon values(279, 'Pelipper', 440, 60, 50, 100, 95, 70, 65, 'Water', 'Flying', NULL, NULL, NULL);
+insert into pokemon values(279, 'Pelipper', 440, 60, 50, 100, 95, 70, 65, 'Water', 'Flying', NULL, 2, NULL);
 insert into pokemon values(280, 'Ralts', 198, 28, 25, 25, 45, 35, 40, 'Psychic', 'Fairy', NULL, NULL, NULL);
 insert into pokemon values(281, 'Kirlia', 278, 38, 35, 35, 65, 55, 50, 'Psychic', 'Fairy', NULL, NULL, NULL);
 insert into pokemon values(282, 'Gardevoir', 518, 68, 65, 65, 125, 115, 80, 'Psychic', 'Fairy', NULL, NULL, NULL);
@@ -444,7 +444,7 @@ insert into pokemon values(321, 'Wailord', 500, 170, 90, 45, 90, 45, 60, 'Water'
 insert into pokemon values(322, 'Numel', 305, 60, 60, 40, 65, 45, 35, 'Fire', 'Ground', NULL, NULL, NULL);
 insert into pokemon values(323, 'Camerupt', 460, 70, 100, 70, 105, 75, 40, 'Fire', 'Ground', NULL, NULL, NULL);
 insert into pokemon values(323, 'Camerupt Mega Camerupt', 560, 70, 120, 100, 145, 105, 20, 'Fire', 'Ground', NULL, NULL, NULL);
-insert into pokemon values(324, 'Torkoal', 470, 70, 85, 140, 85, 70, 20, 'Fire', NULL, NULL, NULL, NULL);
+insert into pokemon values(324, 'Torkoal', 470, 70, 85, 140, 85, 70, 20, 'Fire', NULL, NULL, 70, NULL);
 insert into pokemon values(325, 'Spoink', 330, 60, 25, 35, 70, 80, 60, 'Psychic', NULL, NULL, NULL, NULL);
 insert into pokemon values(326, 'Grumpig', 470, 80, 45, 65, 90, 110, 80, 'Psychic', NULL, NULL, NULL, NULL);
 insert into pokemon values(327, 'Spinda', 360, 60, 60, 60, 60, 60, 60, 'Normal', NULL, NULL, NULL, NULL);
@@ -513,9 +513,9 @@ insert into pokemon values(380, 'Latias', 600, 80, 80, 90, 110, 130, 110, 'Drago
 insert into pokemon values(380, 'Latias Mega Latias', 700, 80, 100, 120, 140, 150, 110, 'Dragon', 'Psychic', NULL, NULL, NULL);
 insert into pokemon values(381, 'Latios', 600, 80, 90, 80, 130, 110, 110, 'Dragon', 'Psychic', NULL, NULL, NULL);
 insert into pokemon values(381, 'Latios Mega Latios', 700, 80, 130, 100, 160, 120, 110, 'Dragon', 'Psychic', NULL, NULL, NULL);
-insert into pokemon values(382, 'Kyogre', 670, 100, 100, 90, 150, 140, 90, 'Water', NULL, NULL, NULL, NULL);
+insert into pokemon values(382, 'Kyogre', 670, 100, 100, 90, 150, 140, 90, 'Water', NULL, 2, NULL, NULL);
 insert into pokemon values(382, 'Kyogre Primal Kyogre', 770, 100, 150, 90, 180, 160, 90, 'Water', NULL, NULL, NULL, NULL);
-insert into pokemon values(383, 'Groudon', 670, 100, 150, 140, 100, 90, 90, 'Ground', NULL, NULL, NULL, NULL);
+insert into pokemon values(383, 'Groudon', 670, 100, 150, 140, 100, 90, 90, 'Ground', NULL, 70, NULL, NULL);
 insert into pokemon values(383, 'Groudon Primal Groudon', 770, 100, 180, 160, 150, 90, 90, 'Ground', 'Fire', NULL, NULL, NULL);
 insert into pokemon values(384, 'Rayquaza', 680, 105, 150, 90, 150, 90, 95, 'Dragon', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(384, 'Rayquaza Mega Rayquaza', 780, 105, 180, 100, 180, 100, 115, 'Dragon', 'Flying', NULL, NULL, NULL);
@@ -574,8 +574,8 @@ insert into pokemon values(430, 'Honchkrow', 505, 100, 125, 52, 105, 52, 71, 'Da
 insert into pokemon values(431, 'Glameow', 310, 49, 55, 42, 42, 37, 85, 'Normal', NULL, NULL, NULL, NULL);
 insert into pokemon values(432, 'Purugly', 452, 71, 82, 64, 64, 59, 112, 'Normal', NULL, NULL, NULL, NULL);
 insert into pokemon values(433, 'Chingling', 285, 45, 30, 50, 65, 50, 45, 'Psychic', NULL, NULL, NULL, NULL);
-insert into pokemon values(434, 'Stunky', 329, 63, 63, 47, 41, 41, 74, 'Poison', 'Dark', NULL, NULL, NULL);
-insert into pokemon values(435, 'Skuntank', 479, 103, 93, 67, 71, 61, 84, 'Poison', 'Dark', NULL, NULL, NULL);
+insert into pokemon values(434, 'Stunky', 329, 63, 63, 47, 41, 41, 74, 'Poison', 'Dark', 1, NULL, NULL);
+insert into pokemon values(435, 'Skuntank', 479, 103, 93, 67, 71, 61, 84, 'Poison', 'Dark', 1, NULL, NULL);
 insert into pokemon values(436, 'Bronzor', 300, 57, 24, 86, 24, 86, 23, 'Steel', 'Psychic', NULL, NULL, NULL);
 insert into pokemon values(437, 'Bronzong', 500, 67, 89, 116, 79, 116, 33, 'Steel', 'Psychic', NULL, NULL, NULL);
 insert into pokemon values(438, 'Bonsly', 290, 50, 80, 95, 10, 45, 10, 'Rock', NULL, NULL, NULL, NULL);
@@ -726,8 +726,8 @@ insert into pokemon values(564, 'Tirtouga', 355, 54, 78, 103, 53, 45, 22, 'Water
 insert into pokemon values(565, 'Carracosta', 495, 74, 108, 133, 83, 65, 32, 'Water', 'Rock', NULL, NULL, NULL);
 insert into pokemon values(566, 'Archen', 401, 55, 112, 45, 74, 45, 70, 'Rock', 'Flying', NULL, NULL, NULL);
 insert into pokemon values(567, 'Archeops', 567, 75, 140, 65, 112, 65, 110, 'Rock', 'Flying', NULL, NULL, NULL);
-insert into pokemon values(568, 'Trubbish', 329, 50, 50, 62, 40, 62, 65, 'Poison', NULL, NULL, NULL, NULL);
-insert into pokemon values(569, 'Garbodor', 474, 80, 95, 82, 60, 82, 75, 'Poison', NULL, NULL, NULL, NULL);
+insert into pokemon values(568, 'Trubbish', 329, 50, 50, 62, 40, 62, 65, 'Poison', NULL, 1, NULL, NULL);
+insert into pokemon values(569, 'Garbodor', 474, 80, 95, 82, 60, 82, 75, 'Poison', NULL, 1, NULL, NULL);
 insert into pokemon values(570, 'Zorua', 330, 40, 65, 40, 80, 40, 65, 'Dark', NULL, NULL, NULL, NULL);
 insert into pokemon values(571, 'Zoroark', 510, 60, 105, 60, 120, 60, 105, 'Dark', NULL, NULL, NULL, NULL);
 insert into pokemon values(572, 'Minccino', 300, 55, 50, 40, 40, 40, 75, 'Normal', NULL, NULL, NULL, NULL);
@@ -2196,5 +2196,4 @@ insert into ability values(265, "Grim Neigh", "When the Pokémon knocks out a ta
 insert into ability values(266, "As One", "This Ability combines the effects of both Calyrex's Unnerve Ability and Glastrier's Chilling Neigh Ability.");
 insert into ability values(267, "As One", "This Ability combines the effects of both Calyrex's Unnerve Ability and Spectrier's Grim Neigh Ability.");
 
--- insert into ability values("Overgrow", 65);
 -- insert into learns values(1, 75, "Level-Up");

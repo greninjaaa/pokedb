@@ -1,0 +1,164 @@
+Aegislash Blade Forme Steel Ghost Stance Change None None
+Aegislash Shield Forme Steel Ghost Stance Change None None
+Alolan Form Diglett Ground Steel Sand Veil Tangling Hair Sand Force
+Alolan Form Dugtrio Ground Steel Sand Veil Tangling Hair Sand Force
+Alolan Form Exeggutor Grass Dragon Frisk None Harvest
+Alolan Form Geodude Rock Electric Magnet Pull Sturdy Galvanize
+Alolan Form Golem Rock Electric Magnet Pull Sturdy Galvanize
+Alolan Form Graveler Rock Electric Magnet Pull Sturdy Galvanize
+Alolan Form Grimer Poison Dark Poison Touch Gluttony Power of Alchemy
+Alolan Form Marowak Fire Ghost Cursed Body Lightning Rod Rock Head
+Alolan Form Meowth Dark Pickup Technician Rattled
+Alolan Form Muk Poison Dark Poison Touch Gluttony Power of Alchemy
+Alolan Form Ninetales Ice Fairy Snow Cloak None Snow Warning
+Alolan Form Persian Dark Fur Coat Technician Rattled
+Alolan Form Raichu Electric Psychic Surge Surfer None None
+Alolan Form Raticate Dark Normal Gluttony Hustle Thick Fat
+Alolan Form Rattata Dark Normal Gluttony Hustle Thick Fat
+Alolan Form Sandshrew Ice Steel Snow Cloak None Slush Rush
+Alolan Form Sandslash Ice Steel Snow Cloak None Slush Rush
+Alolan Form Vulpix Ice Snow Cloak None Snow Warning
+Basculin Blue-Striped Form Water Rock Head Adaptability Mold Breaker
+Basculin Red-Striped Form Water Reckless Adaptability Mold Breaker
+Black Kyurem Dragon Ice Teravolt None None
+Calyrex Ice Rider Psychic Ice As One None None
+Calyrex Shadow Rider Psychic Ghost As One None None
+Castform Rainy Form Water Forecast None None
+Castform Snowy Form Ice Forecast None None
+Castform Sunny Form Fire Forecast None None
+Darmanitan Standard Mode Fire Sheer Force None Zen Mode
+Darmanitan Galarian Standard Mode Ice Gorilla Tactics None Zen Mode
+Darmanitan Zen Mode Fire Psychic None None Zen Mode
+Darmanitan Galarian Zen Mode Ice Fire None None Zen Mode
+Dawn Wings Necrozma Psychic Ghost Prism Armor None None
+Deoxys Attack Forme Psychic Pressure None None
+Deoxys Defense Forme Psychic Pressure None None
+Deoxys Normal Forme Psychic Pressure None None
+Deoxys Speed Forme Psychic Pressure None None
+Dusk Mane Necrozma Psychic Steel Prism Armor None None
+Eiscue Ice Face Ice Ice Face None None
+Eiscue Noice Face Ice Ice Face None None
+Eternatus Eternamax Poison Dragon Pressure None None
+Fan Rotom Electric Flying Levitate None None
+Frost Rotom Electric Ice Levitate None None
+Galarian Form Articuno Psychic Flying Competitive None None
+Galarian Form Corsola Ghost Weak Armor None Cursed Body
+Galarian Form Darumaka Ice Hustle None Inner Focus
+Galarian Form Farfetch'd Fighting Steadfast None Scrappy
+Galarian Form Linoone Dark Normal Pickup Gluttony Quick Feet
+Galarian Form Meowth Steel Pickup Tough Claws Unnerve
+Galarian Form Moltres Dark Flying Berserk None None
+Galarian Form Mr. Mime Ice Psychic Vital Spirit Screen Cleaner Ice Body
+Galarian Form Ponyta Psychic Run Away Pastel Veil Anticipation
+Galarian Form Rapidash Psychic Fairy Run Away Pastel Veil Anticipation
+Galarian Form Slowbro Poison Psychic Quick Draw Own Tempo Regenerator
+Galarian Form Slowking Poison Psychic Curious Medicine Own Tempo Regenerator
+Galarian Form Slowpoke Psychic Gluttony Own Tempo Regenerator
+Galarian Form Stunfisk Ground Steel Mimicry None None
+Galarian Form Weezing Poison Fairy Levitate Neutralizing Gas Misty Surge
+Galarian Form Zapdos Fighting Flying Defiant None None
+Giratina Altered Forme Ghost Dragon Pressure None Telepathy
+Giratina Origin Forme Ghost Dragon Levitate None None
+Greninja Ash-Greninja Water Dark Battle Bond None None
+Heat Rotom Electric Fire Levitate None None
+Hoopa Confined Psychic Ghost Magician None None
+Hoopa Unbound Psychic Dark Magician None None
+Indeedee Indeedee Female Psychic Normal Own Tempo Synchronize Psychic Surge
+Indeedee Indeedee Male Psychic Normal Inner Focus Synchronize Psychic Surge
+Indeedee Male Psychic Normal Inner Focus Synchronize Psychic Surge
+Landorus Incarnate Forme Ground Flying Sand Force None Sheer Force
+Landorus Therian Forme Ground Flying Intimidate None None
+Lycanroc Dusk Form Rock Tough Claws None None
+Lycanroc Midday Form Rock Keen Eye Sand Rush Steadfast
+Lycanroc Midnight Form Rock Keen Eye Vital Spirit No Guard
+Mega Abomasnow Grass Ice Snow Warning None None
+Mega Absol Dark Magic Bounce None None
+Mega Aerodactyl Rock Flying Tough Claws None None
+Mega Aggron Steel Filter None None
+Mega Alakazam Psychic Trace None None
+Mega Altaria Dragon Fairy Pixilate None None
+Mega Ampharos Electric Dragon Mold Breaker None None
+Mega Audino Normal Fairy Healer None None
+Mega Banette Ghost Prankster None None
+Mega Beedrill Bug Poison Adaptability None None
+Mega Blastoise Water Mega Launcher None None
+Mega Blaziken Fire Fighting Speed Boost None None
+Mega Camerupt Fire Ground Sheer Force None None
+Mega Charizard X Fire Dragon Tough Claws None None
+Mega Charizard Y Fire Flying Drought None None
+Mega Diancie Rock Fairy Magic Bounce None None
+Mega Gallade Psychic Fighting Inner Focus None None
+Mega Garchomp Dragon Ground Sand Force None None
+Mega Gardevoir Psychic Fairy Pixilate None None
+Mega Gengar Ghost Poison Shadow Tag None None
+Mega Glalie Ice Refrigerate None None
+Mega Gyarados Water Dark Mold Breaker None None
+Mega Heracross Bug Fighting Skill Link None None
+Mega Houndoom Dark Fire Solar Power None None
+Mega Kangaskhan Normal Parental Bond None None
+Mega Latias Dragon Psychic Levitate None None
+Mega Latios Dragon Psychic Levitate None None
+Mega Lopunny Normal Fighting Scrappy None None
+Mega Lucario Fighting Steel Adaptability None None
+Mega Manectric Electric Intimidate None None
+Mega Mawile Steel Fairy Huge Power None None
+Mega Medicham Fighting Psychic Pure Power None None
+Mega Metagross Steel Psychic Tough Claws None None
+Mega Mewtwo X Psychic Fighting Steadfast None None
+Mega Mewtwo Y Psychic Insomnia None None
+Mega Pidgeot Normal Flying No Guard None None
+Mega Pinsir Bug Flying Aerilate None None
+Mega Rayquaza Dragon Flying Delta Stream None None
+Mega Sableye Dark Ghost Magic Bounce None None
+Mega Salamence Dragon Flying Aerilate None None
+Mega Sceptile Grass Dragon Lightning Rod None None
+Mega Scizor Bug Steel Technician None None
+Mega Sharpedo Water Dark Strong Jaw None None
+Mega Slowbro Water Psychic Shell Armor None None
+Mega Steelix Steel Ground Sand Force None None
+Mega Swampert Water Ground Swift Swim None None
+Mega Tyranitar Rock Dark Sand Stream None None
+Mega Venusaur Grass Poison Thick Fat None None
+Meloetta Aria Forme Normal Psychic Serene Grace None None
+Meloetta Pirouette Forme Normal Fighting Serene Grace None None
+Meowstic Female Psychic Keen Eye Infiltrator Competitive
+Meowstic Male Psychic Keen Eye Infiltrator Prankster
+Minior Core Form Rock Flying Shields Down None None
+Minior Meteor Form Rock Flying Shields Down None None
+Morpeko Full Belly Mode Electric Dark Hunger Switch None None
+Morpeko Hangry Mode Electric Dark Hunger Switch None None
+Mow Rotom Electric Grass Levitate None None
+Oricorio Baile Style Fire Flying Dancer None None
+Oricorio Pa'u Style Psychic Flying Dancer None None
+Oricorio Pom-Pom Style Electric Flying Dancer None None
+Oricorio Sensu Style Ghost Flying Dancer None None
+Primal Groudon Ground Fire Desolate Land None None
+Primal Kyogre Water Primordial Sea None None
+Rockruff Own Tempo Rock Own Tempo None None
+Shaymin Land Forme Grass Natural Cure None None
+Shaymin Sky Forme Grass Flying Serene Grace None None
+Thundurus Incarnate Forme Electric Flying Prankster None Defiant
+Thundurus Therian Forme Electric Flying Volt Absorb None None
+Tornadus Incarnate Forme Flying Prankster None Defiant
+Tornadus Therian Forme Flying Regenerator None None
+Toxtricity Amped Form Electric Poison Punk Rock Plus Technician
+Toxtricity Low Key Form Electric Poison Punk Rock Minus Technician
+Ultra Necrozma Psychic Dragon Neuroforce None None
+Urshifu Rapid Strike Style Fighting Water Unseen Fist None None
+Urshifu Single Strike Style Fighting Dark Unseen Fist None None
+Wash Rotom Electric Water Levitate None None
+White Kyurem Dragon Ice Turboblaze None None
+Wishiwashi Wishiwashi School Form Water Schooling None None
+Wishiwashi Wishiwashi Solo Form Water Schooling None None
+Wormadam Plant Cloak Bug Grass Anticipation None Overcoat
+Wormadam Sandy Cloak Bug Ground Anticipation None Overcoat
+Wormadam Trash Cloak Bug Steel Anticipation None Overcoat
+Yamask Galarian Form Ground Ghost Wandering Spirit None None
+Zacian Crowned Sword Fairy Steel Intrepid Sword None None
+Zacian Hero of Many Battles Fairy Intrepid Sword None None
+Zamazenta Crowned Shield Fighting Steel Dauntless Shield None None
+Zamazenta Hero of Many Battles Fighting Dauntless Shield None None
+Zigzagoon Galarian Form Dark Normal Pickup Gluttony Quick Feet
+Zygarde 10% Forme Dragon Ground Aura Break Power Construct None
+Zygarde 50% Forme Dragon Ground Aura Break Power Construct None
+Zygarde Complete Forme Dragon Ground Power Construct None None
