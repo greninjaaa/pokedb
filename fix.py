@@ -380,7 +380,7 @@ f = open("tmp9.txt", "w")
 f.write("\n".join(paste))
 f.close()
 """
-
+"""
 f = open("tmp9.txt", "r")
 conts = f.read().split("\n")
 f.close()
@@ -393,3 +393,117 @@ for i in conts:
         print(tmp)
         
 print(count)
+"""
+"""
+def func(keyword, list_of_lists):
+    for j in list_of_lists:
+        if keyword in j:
+            return j[0]
+    
+    return -1
+
+f = open("ability.txt", "r")
+ability_codes = f.read().split("\n")
+f.close()
+
+ability_t = []
+for i in ability_codes:
+    tmp = i.split(" ")
+    if ";" in tmp[1]:
+        tmp = tmp[0:2]
+        tmp[1] = tmp[1].strip(";")
+    elif ";" in tmp[2]:
+        tmp = tmp[0:3]
+        tmp[2] = tmp[2].strip(";")
+    elif ";" in tmp[3]:
+        tmp = tmp[0:4]
+        tmp[3] = tmp[3].strip(";")
+    
+    tmp[0] = int(tmp[0])
+    tmp[1] = " ".join(tmp[1:])
+    tmp = tmp[0:2]
+    ability_t.append(tmp)
+
+f = open("types.txt", "r")
+id_codes = f.read().split("\n")
+f.close()
+
+ids = []
+for i in id_codes:
+    new = []
+    tmp = i.split(" ")
+    new.append(int(tmp[0]))
+    j = 1
+    while j < len(tmp):
+        try:
+            new.append(int(tmp[j]))
+            break
+        except ValueError:
+            new.append(tmp[j])
+        j += 1
+    
+    new.pop(len(new) - 1)
+    for j in range(2, len(new)):
+        new[1] += " " + new[j]
+    new = new[0:2]
+    
+    ids.append(new)
+
+
+f = open("tmp9.txt", "r")
+data = f.read().split("\n")
+f.close()
+
+new_data = []
+for i in data:
+    tmp = eval(i)
+    for j in range(0, 3):
+        if tmp["abilities"][j] == 'None':
+            tmp["abilities"][j] = 'NULL'
+        else:
+            tmp["abilities"][j] = func(tmp["abilities"][j], ability_t)
+    
+    name = tmp["name"][0]
+    for j in range(1, len(tmp["name"])):
+        name += " " + tmp["name"][j]
+
+    
+    s = str(func(name, ids))
+    s += ", '{}'".format(name)
+    
+    stats = ''
+    for j in range(0, 7):
+        stats += ', ' + tmp["stats"][j]
+    
+    s += stats
+    s += ', ' + tmp["types"][0]
+    if len(tmp["types"]) == 2:
+        s += ", " + tmp["types"][1]
+    else:
+        s += ", " + "NULL"
+    
+    for j in tmp["abilities"]:
+        s += ", " + str(j)
+    
+    s += ");"
+    new_data.append(s)
+    print(s)
+
+f = open("tmp10.txt", "w")
+f.write("\n".join(new_data))
+f.close()
+"""
+
+f = open("tmp10.txt", "r")
+conts = f.read().split("\n")
+f.close()
+
+new = []
+for i in conts:
+    i = 'insert into pokemon values('+ i
+    new.append(i)
+
+
+f = open("tmp10.txt", "w")
+f.write("\n".join(new))
+f.close()
