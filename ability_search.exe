@@ -1,0 +1,69 @@
+#!/usr/bin/python3
+
+import sys
+import sqlite3
+
+if len(sys.argv) < 2:
+  print("Usage:",sys.argv[0],"ABILITY-1 ABILITY-2 ABILITY-3 {max 3}")
+  sys.exit(1)
+
+con = sqlite3.connect('pokemon.db')
+
+cur = con.cursor()
+
+# fetching ability ids 
+id_list = []
+for i in range(1, len(sys.argv)):
+    abil = sys.argv[i].lower()
+    query =  "SELECT id FROM ability "
+    query += "WHERE name LIKE \"{}\"".format(abil)
+    cur.execute(query)
+    t = cur.fetchone()
+    if t == None:
+        print("No ability matching that name was found.")
+        sys.exit(1)
+    id_list.append(t[0])
+    
+# building query for pokemon with all abilities listed
+query = "SELECT * from pokemon WHERE ("
+for i in range(0, len(id_list)):
+    query += " ((ability1 = {}) or (ability2 = {}) or (hidden_ability = {}))".format(id_list[i], id_list[i], id_list[i])
+    if i != len(id_list) - 1:
+        query += " and\n"
+
+query += ")"
+cur.execute(query)
+
+# executing and printing nicely
+l = []
+while True:
+    t = cur.fetchone()
+    if t == None:
+        break
+    dict = {}
+    dict["Pokedex No"] = t[0]
+    dict["Name"] = t[1]
+    dict["BST"] = t[2]
+    dict["HP"] = t[3]
+    dict["Attack"] = t[4]
+    dict["Defense"] = t[5]
+    dict["Special Attack"] = t[6]
+    dict["Special Defense"] = t[7]
+    dict["Speed"] = t[8]
+    dict["Types"] = [t[9]]
+    if t[10] != None:
+        dict["Types"].append(t[10])
+    
+    l.append(dict)
+ 
+for i in l:
+    print("No." + str(i["Pokedex No"]), i["Name"])
+    print("Stats (BST/HP/ATTACK/DEFENSE/SP. ATTACK/SP.DEFENSE/SPEED)")
+    print(i["BST"], i["HP"], i["Attack"], i["Defense"], i["Special Attack"], i["Special Defense"], i["Speed"])
+    print("Types")
+    types = ""
+    for j in i["Types"]:
+        types += j
+    print(j)
+    
+con.close()
