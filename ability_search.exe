@@ -63,7 +63,7 @@ for i in l:
     print("Types")
     types = ""
     for j in i["Types"]:
-        types += j
-    print(j)
+        types += j + " "
+    print(types)
     
 con.close()

@@ -42,7 +42,7 @@ CREATE TABLE move (
 	move_PP integer NOT NULL,
 	move_power integer,
 	move_accuracy integer,
-	-- tags varchar(200),
+    -- tags varchar(200),
 	PRIMARY KEY (id)
 );
 
