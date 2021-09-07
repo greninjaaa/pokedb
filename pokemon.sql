@@ -27,6 +27,8 @@ CREATE TABLE pokemon (
 CREATE TABLE learns (
 	pokemon integer,
 	move integer,
+    egg_group1 varchar(20) NOT NULL,
+    egg_group2 varchar(20),
 	method text NOT NULL,
 	PRIMARY KEY (pokemon, move),
 	FOREIGN KEY (pokemon) references pokemon(id),
@@ -2196,5 +2198,3 @@ insert into ability values(264, "Chilling Neigh", "When the Pokémon knocks out 
 insert into ability values(265, "Grim Neigh", "When the Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat.");
 insert into ability values(266, "As One", "This Ability combines the effects of both Calyrex's Unnerve Ability and Glastrier's Chilling Neigh Ability.");
 insert into ability values(267, "As One", "This Ability combines the effects of both Calyrex's Unnerve Ability and Spectrier's Grim Neigh Ability.");
-
--- insert into learns values(1, 75, "Level-Up");

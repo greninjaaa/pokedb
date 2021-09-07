@@ -494,6 +494,7 @@ f.write("\n".join(new_data))
 f.close()
 """
 
+"""
 f = open("tmp10.txt", "r")
 conts = f.read().split("\n")
 f.close()
@@ -507,3 +508,16 @@ for i in conts:
 f = open("tmp10.txt", "w")
 f.write("\n".join(new))
 f.close()
+"""
+f = open("learns.txt", "r")
+conts = f.read().split("\n")
+f.close()
+
+new = []
+for i in conts:
+    tmp = " ".split(i)
+    try:
+        int(tmp[4])      
+    except:
+        print(tmp[4])
+       

@@ -1,0 +1,80 @@
+035 Fairy Fairy 1 1 1 1 1 1 1 1
+036 Fairy Fairy 1 1
+039 Normal Fairy Fairy 1
+040 Normal Fairy Fairy 1 1
+060 Water Water 1 4 6
+061 Water Water 1 1, 4 1
+062 Water Fighting Water 1 1 1
+088 Poison Amorphous 1 1 1 1 1 1 1 
+088 Alolan Form Poison Dark Amorphous 1 
+089 Poison Amorphous 1 1 1 1 1 1 1 
+089 Alolan Form Poison Dark Amorphous 1 
+096 Psychic Human-Like 1 1 1 1 1 1 1 
+097 Psychic Human-Like 1 1 1 1 1 1 1 
+113 Normal Fairy 1 1 1 1 1 1 1 1
+115 Normal Monster 1
+122 Psychic Fairy Human-Like 1 1
+122 Ice Psychic Human-Like 1
+124 Ice Psychic Human-Like 1 1 1 1 1 1 1 1
+151 Psychic Undiscovered 1 1 1 1 1 1 1 1
+173 Fairy Undiscovered 1 1 1 1 1 1 1
+174 Normal Fairy Undiscovered 9 9 9 9 9 5 5 1
+175 Fairy Undiscovered 1
+176 Fairy Flying Flying Fairy 1
+186 Water Water 1 1
+192 Grass Grass 1 1 1 1 1 1 
+238 Ice Psychic Undiscovered 1 1 1 1 1 1 1
+242 Normal Fairy 1 1 1 1 1 1 1
+252 Grass Monster Dragon 1 1 1 1 1 1
+253 Grass Monster Dragon 1 1 1 1 1 1
+254 Grass Monster Dragon 1 1 1 1 1 1
+274 Grass Dark Field Grass 1 1 1 1 1 
+275 Grass Dark Field Grass 1 
+293 Normal Monster Field 1 1 1 1 1 1
+294 Normal Monster Field 1 1 1 1 1 1
+295 Normal Monster Field 1 1 1 1 1 1
+316 Poison Amorphous 1 1 1 1 1 
+317 Poison Amorphous 1 1 1 1 1 
+393 Water Water 1 Field 1 1 1 1 
+427 Normal Field Human-Like 1 1 1 1 1
+428 Normal Field Human-Like 1 1 1 1 1
+439 Mime Jr. Psychic Fairy Undiscovered 1USUM 1
+440 Normal Undiscovered 1 1 1 1 1
+456 Water Water 2 1 1 1 1 
+457 Water Water 2 1 1 1 1 
+468 Fairy Flying Flying Fairy 1
+486 Normal Undiscovered 1
+531 Normal Fairy 1 1 1 1
+532 Fighting Human-Like 1 1 1 1
+533 Fighting Human-Like 1 1 1 1
+534 Fighting Human-Like 1 1 1 1
+568 Poison Mineral 1 1 1 1
+569 Poison Mineral 1 1 1 1
+572 Normal Field 1 1 1 1
+573 Normal Field 1
+574 Psychic Human-Like 1 1 1 1
+575 Psychic Human-Like 1 1 1 1
+576 Psychic Human-Like 1 1 1 1
+594 Water Water 1 Water 2 1 1 1 
+619 Fighting Field Human-Like 1 1 1 1
+620 Fighting Field Human-Like 1 1 1 1
+622 Ground Ghost Mineral 1 1 1 8
+623 Ground Ghost Mineral 1 1 1 1
+656 Water Water 1 1 1 
+657 Water Water 1 1 1 
+658 Water Dark Water 1 1 1 
+694 Electric Normal Monster Dragon 1 1 4
+695 Electric Normal Monster Dragon 1
+728 Water Water 1 Field 1 1
+729 Water Water 1 Field 1 1
+730 Water Fairy Water 1 Field 1 1
+741 Fire Flying Flying 1 
+758 Poison Fire Monster Dragon 1 1
+793 Rock Poison Undiscovered 1 1
+816 Water Water 1 Field 1
+817 Water Water 1 Field 1
+818 Water Water 1 Field 1
+866 Ice Psychic Human-Like 1
+898 Psychic Grass Undiscovered 1
+898 Psychic Ice Undiscovered 1
+898 Psychic Ghost Undiscovered 1
